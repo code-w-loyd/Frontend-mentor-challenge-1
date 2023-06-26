@@ -1,0 +1,135 @@
+@import url('https://fonts.google.com/specimen/Overpass');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Overpass, cursive;
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.rating-container {
+    background: hsl(213, 19%, 18%);
+    width: 550px;
+    padding: 35px 30px;
+    border-radius: 15px;
+    transition: .3s;
+    /* display: none; */
+}
+
+.rating-container h2 {
+    padding: 25px 0;
+    color: white;
+    font-weight: 600;
+}
+
+.rating-container p {
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.nums {
+    position: relatives;
+    width: 100%;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    /* border: 1px solid white; */
+    font-size: 1.3rem;
+    /* height: 100px; */
+}
+
+.star {
+    display: inline-block;
+    border-radius: 50%;
+    background: hsl(217, 10%, 34%);
+    width: 40px;
+    height: 40px;
+    padding: 10px 12px;
+}
+
+.rates {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    background: hsl(217, 10%, 34%);
+    width: 50px;
+    height: 50px;
+    padding: 8px 0;
+    margin: 0 10px;
+}
+
+.rates:hover {
+    background: hsl(210, 12%, 84%);
+}
+.rates.active{
+    background: hsl(210, 12%, 87%);
+   
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    padding: 16px 18px;
+    width: 100%;
+    background: hsl(25, 94%, 53%);
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.btn:hover{
+    background: #fff;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+/* thank-container */
+.thank-container {
+    background: hsl(213, 19%, 18%);
+    width: 550px;
+    padding: 35px 30px;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+}
+
+.thank-container h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.thank-container .res {
+    display: block;
+    background: hsl(217, 10%, 34%);
+    margin: 30px auto;
+    max-width: 300px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 20px;
+    color: hsl(25, 94%, 53%);
+
+}
+.thank-container p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
